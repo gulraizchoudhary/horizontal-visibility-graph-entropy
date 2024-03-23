@@ -28,6 +28,8 @@ Visible and Non-visible: Horizontal Visibility Graph Entropy: 0.6591673732008657
 
 ## Acknowledgements
 Credit goes to Gulraiz Iqbal Choudhary, You may consider to read the following paper for more understanding and cite it if you have used the algorithm. 
+
+
 G. I. Choudhary, W. Aziz, I.R. Khan, S. Rahardja and P. Fränti, 
 “Analysing the dynamics of inter beat interval time series using grouped horizontal visibility graph”, 
 IEEE Access, 7 (1), 9926-9934, December 2019. https://www.doi.org/10.1109/ACCESS.2018.2890542
