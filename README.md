@@ -18,12 +18,12 @@ Visible and Non-visible: Horizontal Visibility Graph Entropy: 0.6591673732008657
 ```
 
 ## Visuals
-!["Number of edges in the HVG 0"](https://github.com/gulraizchoudhary/horizontal-visibility-graph-entropy/blob/main/Figure0.png)
-!["Number of edges in the HVG 1"](https://github.com/gulraizchoudhary/horizontal-visibility-graph-entropy/blob/main/Figure1.png)
+!["Number of edges in the HVG 0"](https://github.com/gulraizchoudhary/horizontal-visibility-graph-entropy/blob/main/img/Figure0.png)
+!["Number of edges in the HVG 1"](https://github.com/gulraizchoudhary/horizontal-visibility-graph-entropy/blob/main/img/Figure1.png)
 
-!["Number of edges in the HVG 2"](https://github.com/gulraizchoudhary/horizontal-visibility-graph-entropy/blob/main/Figure2.png)
-!["Number of edges in the HVG 3"](https://github.com/gulraizchoudhary/horizontal-visibility-graph-entropy/blob/main/Figure3.png)
-!["Number of edges in the HVG 4"](https://github.com/gulraizchoudhary/horizontal-visibility-graph-entropy/blob/main/Figure4.png)
+!["Number of edges in the HVG 2"](https://github.com/gulraizchoudhary/horizontal-visibility-graph-entropy/blob/main/img/Figure2.png)
+!["Number of edges in the HVG 3"](https://github.com/gulraizchoudhary/horizontal-visibility-graph-entropy/blob/main/img/Figure3.png)
+!["Number of edges in the HVG 4"](https://github.com/gulraizchoudhary/horizontal-visibility-graph-entropy/blob/main/img/Figure4.png)
 
 
 ## Acknowledgements
