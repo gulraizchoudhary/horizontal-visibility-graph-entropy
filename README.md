@@ -17,7 +17,9 @@ Grouped Horizontal Visibility Graph Entropy: 1.584962500721156
 Visible and Non-visible: Horizontal Visibility Graph Entropy: 0.6591673732008657```
 
 ## Visuals
-!["Kmeans++ results on iteration: 0"](https://github.com/gulraizchoudhary/horizontal-visibility-graph-entropy/blob/main/Figure%200.png)
+!["Kmeans++ results on iteration: 0"](https://github.com/gulraizchoudhary/horizontal-visibility-graph-entropy/blob/main/Figure%200.png?raw=true)
+
+
 !["Kmeans results on iteration: 0"](https://github.com/gulraizchoudhary/horizontal-visibility-graph-entropy/blob/main/Figure%201.png)
 
 !["Kmeans++ results on iteration: 1"](https://github.com/gulraizchoudhary/horizontal-visibility-graph-entropy/blob/main/Figure%202.png)
