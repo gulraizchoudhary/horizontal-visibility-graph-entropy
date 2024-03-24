@@ -36,6 +36,14 @@ def count_edges(hvg):
     return np.sum(hvg)
 
 
+#count the motifs having the same number of edges.
+def count_occurrences(edges):
+    counts = []
+    for num in range(max(edges) + 1):  # Assuming the numbers in the list start from 0
+        counts.append(edges.count(num))
+    return counts
+
+
 #Shannon entropy on grouped horizontal visibility graph
 def shannon_entropy(frequencies):
     total_count = sum(frequencies)
@@ -46,17 +54,20 @@ def shannon_entropy(frequencies):
 
 def kl_divergence(p, q):
     # Compute KL divergence
+    if p == 0 or q == 0:
+        return 0  # or any other appropriate value when division by zero occurs
+    
     return p * np.log(p / q)
     
 
 # Example time series
-series = np.array([6,5,6,4,6,1,6])
+series = np.array([6,5,6,4,6,1,6,1,1,1,1,1])
 
 n = len(series)
 
-window = 5
+window = 6
 
-frequency = []
+edges = []
 for i in range(0, n-window+1):
     time_series=series[i:i+window]
 
@@ -67,7 +78,7 @@ for i in range(0, n-window+1):
     num_edges = count_edges(hvg)
     print("Number of edges in the HVG"+ str(i)+": "+str(time_series), num_edges)
     
-    frequency.append(num_edges)
+    edges.append(num_edges)
     # Plot the time series and the HVG
     plt.subplot(1, 2, 1)
     plt.plot(time_series, marker='o')
@@ -78,10 +89,13 @@ for i in range(0, n-window+1):
     plt.title('Horizontal Visibility Graph')
     plt.show()
 
+frequency = count_occurrences(edges)
 print("Grouped Horizontal Visibility Graph Entropy: "+str(shannon_entropy(frequency)))
 
 
-visible_motifs = np.count_nonzero(frequency)
-non_visible_motif = visible_motifs-(window-1)
-divergence = kl_divergence(visible_motifs/len(frequency), non_visible_motif/len(frequency))
+visible_motifs = np.count_nonzero(edges)
+non_visible_motif = abs(len(edges)-visible_motifs)
+p = visible_motifs/len(edges) 
+q = non_visible_motif/len(edges)
+divergence = kl_divergence(p, q)
 print("Time Irreversibility of Visible and Non-visible: "+str(divergence))

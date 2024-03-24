@@ -14,57 +14,26 @@ Steady decrease without intermediate fluctuations.
 Steady increase followed by a decrease without intermediates.
 
 
-## Output: window of size 3
-```bash
-Number of edges in the HVG 0: [6 5 6] 1
-Number of edges in the HVG 1: [5 6 4] 0
-Number of edges in the HVG 2: [6 4 6] 1
-Number of edges in the HVG 3: [4 6 1] 0
-Number of edges in the HVG 4: [6 1 6] 1
-Grouped Horizontal Visibility Graph Entropy: 1.584962500721156
-Time Irreversibility of Visible and Non-visible: 0.6591673732008657
-```
-
-!["Number of edges in the HVG 0"](https://github.com/gulraizchoudhary/horizontal-visibility-graph-entropy/blob/main/img/Figure0.png)
-!["Number of edges in the HVG 1"](https://github.com/gulraizchoudhary/horizontal-visibility-graph-entropy/blob/main/img/Figure1.png)
-
-!["Number of edges in the HVG 2"](https://github.com/gulraizchoudhary/horizontal-visibility-graph-entropy/blob/main/img/Figure2.png)
-!["Number of edges in the HVG 3"](https://github.com/gulraizchoudhary/horizontal-visibility-graph-entropy/blob/main/img/Figure3.png)
-!["Number of edges in the HVG 4"](https://github.com/gulraizchoudhary/horizontal-visibility-graph-entropy/blob/main/img/Figure4.png)
-
-
-## Output: window of size 4
-```bash
-A window of size 4 is selected:
-Number of edges in the HVG0: [6 5 6 4] 1
-Number of edges in the HVG1: [5 6 4 6] 1
-Number of edges in the HVG2: [6 4 6 1] 1
-Number of edges in the HVG3: [4 6 1 6] 1
-Grouped Horizontal Visibility Graph Entropy: 2.0
-Time Irreversibility of Visible and Non-visible: 1.3862943611198906
-```
-
-
-!["Number of edges in the HVG 0"](https://github.com/gulraizchoudhary/horizontal-visibility-graph-entropy/blob/main/img/Figure_w4_0.png)
-!["Number of edges in the HVG 1"](https://github.com/gulraizchoudhary/horizontal-visibility-graph-entropy/blob/main/img/Figure_w4_1.png)
-
-!["Number of edges in the HVG 2"](https://github.com/gulraizchoudhary/horizontal-visibility-graph-entropy/blob/main/img/Figure_w4_2.png)
-!["Number of edges in the HVG 2"](https://github.com/gulraizchoudhary/horizontal-visibility-graph-entropy/blob/main/img/Figure_w4_3.png)
-
-
 ## Output: window of size 5
 ```bash
-Number of edges in the HVG0: [6 5 6 4 6] 2
-Number of edges in the HVG1: [5 6 4 6 1] 1
-Number of edges in the HVG2: [6 4 6 1 6] 2
-Grouped Horizontal Visibility Graph Entropy: 1.5219280948873621
-Time Irreversibility of Visible and Non-visible: 1.3862943611198906
+Number of edges in the HVG0: [6 5 6 4 6 1] 2
+Number of edges in the HVG1: [5 6 4 6 1 6] 2
+Number of edges in the HVG2: [6 4 6 1 6 1] 2
+Number of edges in the HVG3: [4 6 1 6 1 1] 1
+Number of edges in the HVG4: [6 1 6 1 1 1] 1
+Number of edges in the HVG5: [1 6 1 1 1 1] 0
+Number of edges in the HVG6: [6 1 1 1 1 1] 0
+Grouped Horizontal Visibility Graph Entropy: 1.5566567074628228
+Time Irreversibility of Visible and Non-visible: 0.6544933799101108
 ```
 
 !["Number of edges in the HVG 0"](https://github.com/gulraizchoudhary/horizontal-visibility-graph-entropy/blob/main/img/Figure_w5_0.png)
 !["Number of edges in the HVG 1"](https://github.com/gulraizchoudhary/horizontal-visibility-graph-entropy/blob/main/img/Figure_w5_1.png)
-
 !["Number of edges in the HVG 2"](https://github.com/gulraizchoudhary/horizontal-visibility-graph-entropy/blob/main/img/Figure_w5_2.png)
+!["Number of edges in the HVG 0"](https://github.com/gulraizchoudhary/horizontal-visibility-graph-entropy/blob/main/img/Figure_w5_3.png)
+!["Number of edges in the HVG 1"](https://github.com/gulraizchoudhary/horizontal-visibility-graph-entropy/blob/main/img/Figure_w5_4.png)
+!["Number of edges in the HVG 2"](https://github.com/gulraizchoudhary/horizontal-visibility-graph-entropy/blob/main/img/Figure_w5_5.png)
+!["Number of edges in the HVG 2"](https://github.com/gulraizchoudhary/horizontal-visibility-graph-entropy/blob/main/img/Figure_w5_6.png)
 
 ## Acknowledgements
 Credit goes to Gulraiz Iqbal Choudhary, You may consider to read the following paper for more understanding and cite it if you have used the algorithm. 
