@@ -25,8 +25,6 @@ Grouped Horizontal Visibility Graph Entropy: 1.584962500721156
 Time Irreversibility of Visible and Non-visible: 0.6591673732008657
 ```
 
-## Visuals
-A window of size 3 is selected:
 !["Number of edges in the HVG 0"](https://github.com/gulraizchoudhary/horizontal-visibility-graph-entropy/blob/main/img/Figure0.png)
 !["Number of edges in the HVG 1"](https://github.com/gulraizchoudhary/horizontal-visibility-graph-entropy/blob/main/img/Figure1.png)
 
@@ -46,7 +44,7 @@ Grouped Horizontal Visibility Graph Entropy: 2.0
 Time Irreversibility of Visible and Non-visible: 1.3862943611198906
 ```
 
-##Visuals
+
 !["Number of edges in the HVG 0"](https://github.com/gulraizchoudhary/horizontal-visibility-graph-entropy/blob/main/img/Figure_w4_0.png)
 !["Number of edges in the HVG 1"](https://github.com/gulraizchoudhary/horizontal-visibility-graph-entropy/blob/main/img/Figure_w4_1.png)
 
@@ -63,7 +61,6 @@ Grouped Horizontal Visibility Graph Entropy: 1.5219280948873621
 Time Irreversibility of Visible and Non-visible: 1.3862943611198906
 ```
 
-##Visuals
 !["Number of edges in the HVG 0"](https://github.com/gulraizchoudhary/horizontal-visibility-graph-entropy/blob/main/img/Figure_w5_0.png)
 !["Number of edges in the HVG 1"](https://github.com/gulraizchoudhary/horizontal-visibility-graph-entropy/blob/main/img/Figure_w5_1.png)
 
