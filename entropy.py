@@ -54,7 +54,7 @@ series = np.array([6,5,6,4,6,1,6])
 
 n = len(series)
 
-window = 3
+window = 5
 
 frequency = []
 for i in range(0, n-window+1):
